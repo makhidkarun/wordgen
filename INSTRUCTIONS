@@ -1,0 +1,59 @@
+Program:      Word
+
+Function:     Random word generator for a given language template.
+
+Description:  The Word program takes standard MT-format word generation
+              templates (such as those shown on pgs. 39 and 88 of the
+              DGP Vilani and Vargr alien sourcebook), and produces a
+              list of random words that fit the design specifications
+              for that template.
+
+              To compile the program, you only need a C compiler (usually
+              called 'cc' and located in /bin on most UN*X workstations).
+              There are three source files: fgetline.c word-random.c and
+              word.c.  The first file (fgetline.c) is used to parse the
+              language template.  The second file (word-random.c) contains
+              the random number generator, used to determine what phoneme
+              is selected next for the construction of a single word.  The
+              third file (word.c) is the main code that binds everything
+              together.
+
+              A Makefile (for use with the UN*X utility 'make') is provided
+              with this set of source code.  The first two lines of the
+              Makefile may need to be modified, depending on whether you
+              are using Berkeley (BSD) or AT&T System V (SYSV) UN*X.  By
+              default, the Makefile is set up for SYSV.  If you are running
+              on a Berkeley UN*X platform (on Sun workstations, for example),
+              you will need to edit the Makefile to comment out the SYSV 
+              option, and uncomment the BSD option.  Once this has been
+              done, you can compile the program.
+
+              To compile the program, just type the following command:
+
+                  make
+
+              Assuming no errors occur, the program 'word' should be
+              generated in your current working directory.
+
+              If you get this far, you're ready to start cranking out
+              new words.  To invoke the program, the sequence is:
+
+                  word [word_file] [num_words] [num_syllables]
+
+              where [word_file] is the template file used as input (the
+              template file 'w.vilani' is provided with this program).
+              The second parameter is the total number of word you want
+              generated on this invocation.  There's no upper limit, but
+              I recommend you never specify more than 10,000, just in case
+              something goes wrong.  (You can always create more later.)
+              The last parameter is the maximum number of syllables any
+              given word will have.  This doesn't mean that all the words
+              generated will be this long.  It only means that none will
+              be longer.  (I.e. if you specify 5 syllables, all the words
+              produced will have 1 to 5 syllables.)
+
+              That's all there is to it!
+
+
+              - Mark F. Cook, Hewlett-Packard Co., 21 Feb. 1993
+                markc@hpcvss.cv.hp.com

@@ -1,0 +1,58 @@
+
+1. Input world length # of syllables, 0 = 1D6
+2. Choose Table, Basic to start, Alternate where indicated
+3. Choose sound groups.
+
+        Basic                                   Alternate
+  1    2    3    4    5    6            1    2    3    4    5    6
+1 V*   V*   V*   V*   V*   V*           CV*  CV*  CV*  CV*  CV*  CV*
+2 CV*  CV*  CV*  CV*  CV*  CV*          CV*  CV*  CV*  CV*  CV*  CV*
+3 CV*  CV*  CV*  CV*  CV*  CV*          CV*  CV*  CV*  CV*  CV*  CV*
+4 CV*  CV*  CV*  VC   VC   VC           VC   VC   VC   VC   VC   CVC
+5 VC   VC   VC   CVC  CVC  CVC          CVC  CVC  CVC  CVC  CVC  CVC
+6 CVC  CVC  CVC  CVC  CVC  CVC          CVC  CVC  CVC  CVC  CVC  CVC
+(Only four choices on table V, CV, VC, and CVC, append * to use alternate table)
+
+        Initial Consonant               Vowel           Final Consonant
+   1   2   3   4   5   6        1   2   3   4   5   6   1   2   3   4   5   6
+11 b   b   g   g   g   g        a   a   a   a   a   a   b   b   b   b   b   g
+12 g   g   g   g   gh  gh       a   a   a   a   a   a   d   d   d   d   g   g
+13 gh  gh  gh  gh  gh  gh       a   a   a   a   a   a   g   g   g   gh  gh  gh
+14 gh  gh  gh  gh  gh  gh       a   a   a   a   a   a   gh  gh  gr  gr  gr  gr
+15 gn  gn  gn  gn  gn  gn       a   a   a   a   a   a   gr  k   k   k   k   k
+16 gn  gn  gn  gr  gr  gr       a   a   a   a   a   a   k   k   k   k   k   k
+
+21 gr  gz  gz  hk  hk  hk       a   a   a   a   a   a   k   k   k   k   k   k
+22 hk  k   k   k   k   k        a   a   a   a   a   a   k   k   k   k   k   k
+23 k   k   k   k   k   k        a   a   a   a   a   a   k   k   k   k   k   k
+24 k   k   k   k   k   k        a   a   a   a   a   a   k   k   k   kr  kr  kr
+25 k   k   k   k   k   k        a   a   a   a   a   a   kr  kr  kr  kr  kr  kr
+26 k   k   k   k   k   k        a   a   aa  aa  aa  aa  kr  kr  kr  kr  kr  kr
+
+31 k   k   k   k   k   k        aa  aa  aa  e   e   e   l   l   l   l   l   l
+32 k   k   k   k   k   k        e   e   e   e   e   e   l   l   l   l   m   m
+33 k   k   k   k   k   k        e   e   ee  ee  ee  ee  m   m   m   n   n   n
+34 k   k   k   k   k   k        ee  ee  ee  ee  ee  ee  n   n   n   n   n   n
+35 kr  kr  kr  kr  kr  kr       ee  ee  ee  ee  i   i   n   ng  ng  ng  ng  ng
+36 kr  kr  kr  kr  kr  kr       i   i   i   i   i   i   ng  ng  ng  ng  ng  ng
+
+41 kr  kr  kr  kr  kr  kr       i   i   i   i   i   i   ng  ng  ng  ng  p   p
+42 kr  kr  kr  kr  kt  kt       i   i   i   i   i   i   p   p   p   r   r   r
+43 l   l   l   l   l   l        i   i   ii  ii  ii  ii  r   r   r   r   r   r
+44 l   l   l   l   l   m        ii  ii  ii  o   o   o   r   r   r   r   r   r
+45 m   m   m   mb  mb  n        o   oo  oo  oo  oo  oo  r   r   r   r   r   r
+46 n   n   n   n   n   n        oo  oo  u   u   u   u   r   r   r   r   r   r
+
+51 n   n   n   p   p   r        u   u   u   u   u   u   r   r   r   r   r   r
+52 r   r   r   r   r   r        u   u   u   u   u   u   r   r   r   r   r   r
+53 r   r   r   r   r   r        u   u   u   u   u   u   r   r   r   rr  rr  rr
+54 r   r   r   r   r   r        uu  uu  uu  uu  uu  uu  rr  rr  rr  rr  rr  rr
+55 r   r   r   r   r   r        uu  '   '   '   '   '   rr  rr  rr  rr  rr  rr
+56 r   rr  rr  rr  rr  rr       '   '   '   '   '   '   rr  rr  rr  rr  rr  rr
+
+61 rr  rr  t   t   t   t        '   '   '   '   '   '   rr  t   t   t   t   t
+62 t   t   t   t   t   t        '   '   '   '   '   '   t   t   t   t   t   t
+63 t   t   t   t   t   tr       '   '   '   '   '   !   t   t   t   t   x   x
+64 tr  tr  tr  x   x   x        !   !   !   !   !   !   x   x   x   x   x   x
+65 x   x   x   x   x   x        !   !   !   !   !!  !!  x   x   x   x   x   x
+66 xk  xk  xr  xr  xt  xt       !!  !!  !'  !'  !'  !'  x   xk  xk  xk  xk  xk

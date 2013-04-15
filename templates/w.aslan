@@ -1,0 +1,58 @@
+
+1. Input world length # of syllables, 0 = 1D6
+2. Choose Table, Basic to start, Alternate where indicated
+3. Choose sound groups.
+
+	Basic					Alternate
+  1    2    3    4    5    6 		1    2    3    4    5    6
+1 V    V    V    V    V    V            V    V    V    V    V    V
+2 V    V    V    V    V    V            V    V    V    V    V    V
+3 V    CV   CV   CV   CV   CV           V    V    V    VC*  VC*  VC*
+4 CV   CV   CV   CV   VC*  VC*          VC*  VC*  VC*  VC*  VC*  VC*
+5 VC*  VC*  VC*  VC*  VC*  VC*          VC*  VC*  VC*  VC*  VC*  VC*
+6 CVC* CVC* CVC* CVC* CVC* CVC*         VC*  VC*  VC*  VC*  VC*  VC*
+(Only four choices on table V, CV, VC, and CVC, append * to use alternate table)
+
+	Initial Consonant		Vowel		Final Consonant
+   1   2   3   4   5   6  	1   2   3   4   5   6	1   2   3   4   5   6
+11 f   f   f   f   f   f        a   a   a   a   a   a   h   h   h   h   h   h
+12 f   f   f   f   f   f        a   a   a   a   a   a   h   h   h   h   h   h
+13 ft  ft  ft  ft  ft  ft       a   a   a   a   a   a   h   h   h   h   h   h
+14 ft  ft  ft  h   h   h        a   a   a   a   a   a   h   h   h   h   h   h
+15 h   h   h   h   h   h        a   a   a   a   a   a   h   h   h   h   h   h
+16 h   h   h   h   h   h        a   a   a   a   a   a   h   h   h   h   h   h
+
+21 h   h   h   h   h   h        a   a   a   a   a   a   h   h   h   h   h   h
+22 hf  hf  hf  hk  hk  hk       ai  ai  ai  ai  ai  ai  h   h   h   h   kh  kh
+23 hk  hk  hk  hk  hk  hk       ai  ai  ai  ai  ao  ao  kh  kh  kh  kh  kh  kh
+24 hk  hk  hk  hl  hl  hl       ao  ao  ao  ao  ao  ao  kh  kh  kh  kh  kh  kh
+25 hl  hl  hl  hl  hl  hr       au  au  au  au  e   e   kh  kh  kh  kh  l   l
+26 hr  hr  hr  hr  hr  hr       e   e   e   e   e   e   l   l   l   l   l   l
+
+31 ht  ht  ht  ht  ht  ht       e   e   e   e   e   e   l   l   l   l   l   l
+32 ht  ht  ht  ht  ht  ht       e   e   e   e   e   e   l   l   l   l   l   l
+33 hw  hw  hw  hw  hw  k        e   e   e   e   e   e   l   l   l   l   l   l
+34 k   k   k   k   k   k        ea  ea  ea  ea  ea  ea  l   l   l   l   l   l
+35 k   k   k   k   k   k        ea  ea  ea  ea  ea  ea  lr  lr  lr  lr  lr  lr
+36 k   k   k   k   kh  kh       ea  ea  ea  ea  ea  ea  lr  lr  lr  lr  lr  lr
+
+41 kh  kh  kh  kh  kh  kh       ea  ea  ea  ea  ea  ea  lr  lr  r   r   r   r
+42 kh  kh  kh  kh  kh  kh       ei  ei  ei  ei  ei  ei  r   r   r   r   r   r
+43 kh  kht kht kht kht kht      ei  ei  ei  ei  ei  ei  r   r   r   r   r   r
+44 kht kht kht kht kht kht      ei  i   i   i   i   i   r   r   r   r   r   r
+45 kt  kt  kt  kt  kt  kt       i   i   i   i   i   i   rl  rl  rl  rl  rl  rl
+46 kt  kt  kt  kt  l   l        i   i   i   i   i   iy  rl  rl  rl  rl  rl  rl
+
+51 l   l   l   l   r   r        iy  iy  iy  iy  iy  iy  rl  rl  rl  rl  rl  rl
+52 r   r   r   r   s   s        iy  iy  iy  iy  iy  o   rl  s   s   s   s   s
+53 s   s   s   s   s   s        o   o   o   o   o   o   s   s   s   s   s   s
+54 s   s   st  st  st  st       o   oa  oa  oa  oa  oi  s   s   s   s   s   s
+55 st  st  t   t   t   t        oi  oi  oi  oi  oi  oi  s   s   s   s   s   s
+56 t   t   t   t   t   t        oi  ou  ou  ou  ou  ou  s   w   w   w   w   w
+
+61 t   t   t   t   t   t        u   u   u   u   ua  ua  w   w   w   w   w   w
+62 t   t   t   t   t   tl       ua  ua  ui  ui  ui  ui  w   w   w   w   w   w
+63 tl  tl  tl  tl  tr  tr       ya  ya  ya  ya  ya  ya  w   w   w   w   w   w
+64 tr  tr  tr  w   w   w        ya  ya  ye  ye  ye  ye  w   w   w   w   '   '
+65 w   w   w   w   w   w        ye  ye  ye  ye  yo  yo  '   '   '   '   '   '
+66 w   w   w   w   w   w        yo  yo  yu  yu  yu  yu  '   '   '   '   '   '
